@@ -1,5 +1,25 @@
 h1 {
     padding: 10px;
-    border: 2px solid purple;
+    display: flex;
+    flex-direction: row; /* change col */
+    justify-content: center; /* change from center to space-betwen */ 
     align-items: center;
+    align-items: flex-end;
+}
+
+h2 {
+    margin: 20px;
+}
+
+ul {
+    color: maroon;
+
+}
+
+img {
+    display: flex;
+    flex-direction: row; /* change col */
+    justify-content: center; /* change from center to space-betwen */ 
+    align-items: center;
+    align-items: flex-end;
 }
